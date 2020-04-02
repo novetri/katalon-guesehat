@@ -14,6 +14,11 @@ public class GlobalVariable {
      */
     public static Object Prod_SiteURL
      
+    /**
+     * <p></p>
+     */
+    public static Object Stag_SiteURL
+     
 
     static {
         try {
@@ -22,6 +27,7 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             Prod_SiteURL = selectedVariables['Prod_SiteURL']
+            Stag_SiteURL = selectedVariables['Stag_SiteURL']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

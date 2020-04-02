@@ -9,4 +9,9 @@
       <initValue>'https://www.guesehat.com'</initValue>
       <name>Prod_SiteURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.stag-guesehat.com'</initValue>
+      <name>Stag_SiteURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
