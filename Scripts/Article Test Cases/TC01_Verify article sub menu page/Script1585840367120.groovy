@@ -13,14 +13,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'Open browser and navigate to a site'
+WebUI.openBrowser(GlobalVariable.Prod_SiteURL)
 
 'Maximize the window'
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.guesehat.com/')
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Artikel'),0)
-WebUI.mouseOver(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Artikel'))
-WebUI.mouseOver(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Medis'))
-WebUI.click(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Medis'))
-s
+'Select Artikel menu'
+WebUI.mouseOver(findTestObject('Article Pages/gs-button-article'))
+
+'Select Medis sub menu'
+WebUI.mouseOver(findTestObject('Article Pages/gs-button-medis'))
+WebUI.click(findTestObject('Article Pages/gs-button-medis'))
+WebUI.delay(10)
+
+'Wait for the image to be present'
+//WebUI.waitForImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
+
+'Verify if the image is present'
+//WebUI.verifyImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
+
+'Scroll to text Lainnya'
+WebUI.mouseOver(findTestObject('Medis Pages/gs-button-lainnya'))
+WebUI.click(findTestObject('Medis Pages/gs-button-lainnya'))
+
+'Close browser'
+WebUI.closeBrowser()

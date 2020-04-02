@@ -7,6 +7,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.guesehat.com'</initValue>
-      <name>env_prod</name>
+      <name>Prod_SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.stag-guesehat.com'</initValue>
+      <name>Stag_SiteURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

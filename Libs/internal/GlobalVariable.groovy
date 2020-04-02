@@ -12,7 +12,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object env_prod
+    public static Object Prod_SiteURL
+     
+    /**
+     * <p></p>
+     */
+    public static Object Stag_SiteURL
      
 
     static {
@@ -21,7 +26,8 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            env_prod = selectedVariables['env_prod']
+            Prod_SiteURL = selectedVariables['Prod_SiteURL']
+            Stag_SiteURL = selectedVariables['Stag_SiteURL']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

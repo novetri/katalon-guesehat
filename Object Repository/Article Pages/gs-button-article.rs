@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Medis</name>
+   <name>gs-button-article</name>
    <tag></tag>
-   <elementGuidId>27480d46-a9be-4ce9-87af-642b4d67a2e5</elementGuidId>
+   <elementGuidId>d4fc3ef8-b13e-4eb0-a7d6-53ab77601377</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='content']/section/div/div/h1</value>
+         <value>//div[@id='wrapper']/header/div/nav/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,63 +17,77 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.guesehat.com/artikel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>listpage-head-title</value>
+      <value>menu-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Artikel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Medis</value>
+      <value>Artikel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/section[@class=&quot;inner&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;listpage-head&quot;]/h1[@class=&quot;listpage-head-title&quot;]</value>
+      <value>id(&quot;wrapper&quot;)/header[1]/div[@class=&quot;header-block&quot;]/nav[@class=&quot;menu&quot;]/ul[@class=&quot;menu-list clearfix&quot;]/li[1]/a[@class=&quot;menu-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='content']/section/div/div/h1</value>
+      <value>//div[@id='wrapper']/header/div/nav/ul/li/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'Artikel')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tulis Artikel'])[2]/following::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Artikel'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tumbuh Kembang &amp; Imunisasi'])[2]/following::h1[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medis'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/preceding::h1[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medis'])[5]/preceding::h1[1]</value>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, 'https://www.guesehat.com/artikel')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h1</value>
+      <value>//li/a</value>
    </webElementXpaths>
 </WebElementEntity>
