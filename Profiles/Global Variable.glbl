@@ -7,6 +7,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.guesehat.com'</initValue>
-      <name>env_prod</name>
+      <name>Prod_SiteURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

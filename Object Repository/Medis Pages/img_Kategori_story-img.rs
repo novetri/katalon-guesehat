@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Kategori_story-img</name>
+   <tag></tag>
+   <elementGuidId>5f722ee5-6a74-4b7a-90b8-47b4c0ee07f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='story-contlist']/li/div/a/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;story-contlist&quot;)/li[1]/div[@class=&quot;story clearfix&quot;]/a[@class=&quot;story-img-cont&quot;]/img[@class=&quot;story-img&quot;][count(. | //img[@class = 'story-img' and @data-src = 'https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg' and @alt = 'Manfaat Meniran Hijau untuk Kekebalan Tubuh' and @src = 'https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg']) = count(//img[@class = 'story-img' and @data-src = 'https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg' and @alt = 'Manfaat Meniran Hijau untuk Kekebalan Tubuh' and @src = 'https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>story-img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-src</name>
+      <type>Main</type>
+      <value>https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Manfaat Meniran Hijau untuk Kekebalan Tubuh</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://static.guesehat.com/static/article_thumb/manfaat_meniran_hijau_untuk_kekebalan_tubuh_1585548939.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;story-contlist&quot;)/li[1]/div[@class=&quot;story clearfix&quot;]/a[@class=&quot;story-img-cont&quot;]/img[@class=&quot;story-img&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//ul[@id='story-contlist']/li/div/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medis'])[3]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medis'])[5]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manfaat Meniran Hijau untuk Kekebalan Tubuh'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[@alt='Manfaat Meniran Hijau untuk Kekebalan Tubuh']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

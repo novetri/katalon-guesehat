@@ -13,29 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open browser and navigate to a site'
-WebUI.openBrowser(GlobalVariable.Prod_SiteURL)
-
-'Maximize the window'
-WebUI.maximizeWindow()
-
-'Select Artikel menu'
-WebUI.mouseOver(findTestObject('Article Pages/gs-button-article'))
-
-'Select Medis sub menu'
-WebUI.mouseOver(findTestObject('Article Pages/gs-button-medis'))
-WebUI.click(findTestObject('Article Pages/gs-button-medis'))
-WebUI.delay(10)
-
-'Wait for the image to be present'
-//WebUI.waitForImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
-
-'Verify if the image is present'
-//WebUI.verifyImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
-
-'Scroll to text Lainnya'
-WebUI.mouseOver(findTestObject('Medis Pages/gs-button-lainnya'))
-WebUI.click(findTestObject('Medis Pages/gs-button-lainnya'))
-
-'Close browser'
-WebUI.closeBrowser()

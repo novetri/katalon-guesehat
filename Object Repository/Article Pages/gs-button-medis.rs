@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Medis</name>
+   <name>gs-button-medis</name>
    <tag></tag>
    <elementGuidId>e0eb2aff-7cfe-470e-8064-5b97258630bf</elementGuidId>
    <selectorCollection>

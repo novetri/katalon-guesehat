@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Artikel</name>
+   <name>gs-button-article</name>
    <tag></tag>
    <elementGuidId>d4fc3ef8-b13e-4eb0-a7d6-53ab77601377</elementGuidId>
    <selectorCollection>
