@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/bn/lkxpp5r9765_fnmct7y84t000000gn/T/Katalon/Test Cases/01. Article Pages/TC01_As a user, able to see article sub menu/20200402_215442/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/bn/lkxpp5r9765_fnmct7y84t000000gn/T/Katalon/Test Cases/Article Test Cases/TC01_Verify article sub menu page/20200402_224520/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/01. Article Pages/TC01_As a user, able to see article sub menu', new TestCaseBinding('Test Cases/01. Article Pages/TC01_As a user, able to see article sub menu',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Article Test Cases/TC01_Verify article sub menu page', new TestCaseBinding('Test Cases/Article Test Cases/TC01_Verify article sub menu page',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

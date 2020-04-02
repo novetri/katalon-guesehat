@@ -33,9 +33,13 @@ WebUI.delay(10)
 'Verify if the image is present'
 //WebUI.verifyImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
 
+
 'Scroll to text Lainnya'
+for(int i=1; i<=3; i++){
 WebUI.mouseOver(findTestObject('Medis Pages/gs-button-lainnya'))
+WebUI.delay(10)
 WebUI.click(findTestObject('Medis Pages/gs-button-lainnya'))
+}
 
 'Close browser'
 WebUI.closeBrowser()
