@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_As a user, able to see article sub menu</name>
+   <name>TC01_Verify article sub menu page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9be8f792-99d1-4652-8149-b1a8e4a5cf9c</testCaseGuid>
