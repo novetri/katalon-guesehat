@@ -13,14 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open the browser'
 WebUI.openBrowser('')
 
 'Maximize the window'
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.guesehat.com/')
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Artikel'),0)
-WebUI.mouseOver(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Artikel'))
-WebUI.mouseOver(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Medis'))
-WebUI.click(findTestObject('Object Repository/Page_Guesehat - Platform Kesehatan dengan Fitur Terlengkap/a_Medis'))
-s
+'Navigate to URL'
+WebUI.navigateToUrl('https://www.guesehat.com');
+
+'Select Artikel menu'
+WebUI.mouseOver(findTestObject('Article Pages/a_Artikel'))
+
+'Select Medis sub menu'
+WebUI.mouseOver(findTestObject('Article Pages/a_Medis'))
+WebUI.click(findTestObject('Article Pages/a_Medis'))
