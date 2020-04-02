@@ -24,7 +24,9 @@ WebUI.mouseOver(findTestObject('Article Pages/gs-button-article'))
 
 'Select Medis sub menu'
 WebUI.mouseOver(findTestObject('Article Pages/gs-button-medis'))
+
 WebUI.click(findTestObject('Article Pages/gs-button-medis'))
+
 WebUI.delay(10)
 
 'Wait for the image to be present'
@@ -34,8 +36,7 @@ WebUI.delay(10)
 //WebUI.verifyImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
 
 'Scroll to text Lainnya'
-WebUI.mouseOver(findTestObject('Medis Pages/gs-button-lainnya'))
-WebUI.click(findTestObject('Medis Pages/gs-button-lainnya'))
+CustomKeywords.'mypack.loopBtnLainnya.getLoopBtnLainnya'()
 
 'Close browser'
 WebUI.closeBrowser()
