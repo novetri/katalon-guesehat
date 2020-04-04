@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Verify article sub menu page</name>
+   <name>TC01_Verify medis page</name>
    <tag></tag>
    <comment>Wait for the image to be present
 Verify if the image is present</comment>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Verify lifestyle page</name>
+   <tag></tag>
+   <comment>Wait for the image to be present
+Verify if the image is present</comment>
+   <testCaseGuid>76f45941-34fc-4fc9-88d4-332818747e06</testCaseGuid>
+</TestCaseEntity>

@@ -22,15 +22,14 @@ public class loopBtnLainnya {
 
 	@Keyword
 	public void getLoopBtnLainnya() {
-		
+
 		for(int i=1; i<=3; i++){
-			
+
 			WebUI.mouseOver(findTestObject('Medis Pages/gs-button-lainnya'))
-			
+
 			WebUI.delay(7)
-			
+
 			WebUI.click(findTestObject('Medis Pages/gs-button-lainnya'))
-			
 		}
 	}
 }
