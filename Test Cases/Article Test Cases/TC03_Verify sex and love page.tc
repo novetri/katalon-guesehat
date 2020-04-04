@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Verify sex and love page</name>
+   <tag></tag>
+   <comment>Wait for the image to be present
+Verify if the image is present</comment>
+   <testCaseGuid>29913cc2-f2bc-4148-bde0-59255710da1f</testCaseGuid>
+</TestCaseEntity>

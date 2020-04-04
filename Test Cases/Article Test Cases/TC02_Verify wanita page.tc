@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Verify wanita page</name>
+   <tag></tag>
+   <comment>Wait for the image to be present
+Verify if the image is present</comment>
+   <testCaseGuid>61eba6cd-6473-41bb-91f0-95bc0cd47375</testCaseGuid>
+</TestCaseEntity>
