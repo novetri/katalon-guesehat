@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/bn/lkxpp5r9765_fnmct7y84t000000gn/T/Katalon/Test Cases/Article Test Cases/TC03_Verify sex and love page/20200405_000312/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/bn/lkxpp5r9765_fnmct7y84t000000gn/T/Katalon/Test Cases/Article Test Cases/TC01_Verify medis page/20200406_105359/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Article Test Cases/TC03_Verify sex and love page', new TestCaseBinding('Test Cases/Article Test Cases/TC03_Verify sex and love page',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Article Test Cases/TC01_Verify medis page', new TestCaseBinding('Test Cases/Article Test Cases/TC01_Verify medis page',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

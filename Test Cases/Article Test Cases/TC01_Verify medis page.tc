@@ -3,7 +3,6 @@
    <description></description>
    <name>TC01_Verify medis page</name>
    <tag></tag>
-   <comment>Wait for the image to be present
-Verify if the image is present</comment>
+   <comment></comment>
    <testCaseGuid>9be8f792-99d1-4652-8149-b1a8e4a5cf9c</testCaseGuid>
 </TestCaseEntity>

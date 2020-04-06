@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Lifestyle</name>
+   <name>img_Uliya Helmi Ali_story-img</name>
    <tag></tag>
-   <elementGuidId>526aae84-6450-4b16-9afd-486067215ae5</elementGuidId>
+   <elementGuidId>f616eed7-00c4-40f5-b3cd-45fccb1980be</elementGuidId>
+   <imagePath>/Users/velia/Downloads/apa_itu_lepuh_diabetes_dan_apa_penyebabnya_1584680916.jpg</imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/header/div/nav/ul/li/div/ul/li[5]/a</value>
+         <value>//ul[@id='story-contlist']/li[2]/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,89 +18,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>submenu-link</value>
+      <value>story-img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-src</name>
+      <type>Main</type>
+      <value>https://static.guesehat.com/static/article_thumb/apa_itu_lepuh_diabetes_dan_apa_penyebabnya_1584680916.jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>https://www.guesehat.com/lifestyle</value>
+      <value>Lepuh Diabetes, Apa Penyebabnya?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Lifestyle</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Lifestyle</value>
+      <value>https://static.guesehat.com/static/article_thumb/apa_itu_lepuh_diabetes_dan_apa_penyebabnya_1584680916.jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/header[1]/div[@class=&quot;header-block&quot;]/nav[@class=&quot;menu&quot;]/ul[@class=&quot;menu-list clearfix&quot;]/li[1]/div[@class=&quot;submenu clearfix&quot;]/ul[@class=&quot;submenu-list&quot;]/li[5]/a[@class=&quot;submenu-link&quot;]</value>
+      <value>id(&quot;story-contlist&quot;)/li[2]/div[@class=&quot;story clearfix&quot;]/a[@class=&quot;story-img-cont&quot;]/img[@class=&quot;story-img&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='wrapper']/header/div/nav/ul/li/div/ul/li[5]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Lifestyle')]</value>
+      <value>//ul[@id='story-contlist']/li[2]/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sex &amp; Love'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uliya Helmi Ali'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wanita'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dampak Physical Distancing pada Kesehatan Mental, Siapa Paling Berisiko?'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direktori'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medis'])[6]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Direktori'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lepuh Diabetes, Apa Penyebabnya?'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, 'https://www.guesehat.com/lifestyle')]</value>
+      <name>xpath:img</name>
+      <value>//img[@alt='Lepuh Diabetes, Apa Penyebabnya?']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/ul/li[5]/a</value>
+      <value>//li[2]/div/a/img</value>
    </webElementXpaths>
 </WebElementEntity>
