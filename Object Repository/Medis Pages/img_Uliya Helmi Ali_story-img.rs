@@ -4,7 +4,7 @@
    <name>img_Uliya Helmi Ali_story-img</name>
    <tag></tag>
    <elementGuidId>f616eed7-00c4-40f5-b3cd-45fccb1980be</elementGuidId>
-   <imagePath>/Users/velia/Downloads/apa_itu_lepuh_diabetes_dan_apa_penyebabnya_1584680916.jpg</imagePath>
+   <imagePath>../../Downloads/apa_itu_lepuh_diabetes_dan_apa_penyebabnya_1584680916.jpg</imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -12,7 +12,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
