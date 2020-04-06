@@ -29,12 +29,6 @@ WebUI.click(findTestObject('Article Pages/gs-button-sexlove'))
 
 WebUI.delay(10)
 
-'Wait for the image to be present'
-//WebUI.waitForImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
-
-'Verify if the image is present'
-//WebUI.verifyImagePresent(findTestObject('Medis Pages/img_Kategori_story-img'))
-
 'Scroll to text Lainnya'
 CustomKeywords.'mypack.loopBtnLainnya.getLoopBtnLainnya'()
 
