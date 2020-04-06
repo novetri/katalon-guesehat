@@ -14,4 +14,9 @@
       <initValue>'https://www.stag-guesehat.com'</initValue>
       <name>Stag_SiteURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.guesehat.com/mediss'</initValue>
+      <name>Invalid_Stag_SiteURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

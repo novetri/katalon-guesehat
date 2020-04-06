@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Verify if the link page is broken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3a8eacc-3d1e-48a7-9b27-2f2f4365e8c8</testCaseGuid>
+</TestCaseEntity>
